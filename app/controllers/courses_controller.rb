@@ -32,7 +32,6 @@ class CoursesController < ApplicationController
         format.json { render action: 'show', status: :created, location: @course }
       else
         format.html { render action: 'new' }
-        format.json { render json: @course.errors, status: :unprocessable_entity }
       end
     end
   end
