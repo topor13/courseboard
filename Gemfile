@@ -14,5 +14,5 @@ group :doc do
 end
 
 group :development do
-  gem 'disable_assets_logger'
+  # gem 'disable_assets_logger'
 end
